@@ -34,7 +34,7 @@ function woo_new_product_tab_content() {
 
 
 ### Another custom tab on product page
-```txt
+```php
 /**
  * Add another custom product data tab
  */
@@ -68,7 +68,7 @@ function woo_new_product_tab_2_content() {
 
 
 ### Reorder product data tabs on product page
-```txt
+```php
 /**
  * Reorder product data tabs
  */
@@ -83,7 +83,7 @@ function woo_reorder_tabs( $tabs ) {
 ```
 
 ### Rename product data tabs on product page
-```txt
+```php
 /**
  * Rename product data tabs
  */
@@ -98,7 +98,7 @@ function woo_rename_tabs( $tabs ) {
 ```
 
 ### Remove product data tabs on product page
-```txt
+```php
 /**
  * Remove product data tabs
  */
@@ -115,7 +115,7 @@ function woo_remove_product_tabs( $tabs ) {
 
 
 ### Hide Price Range for WooCommerce Variable Products
-```txt
+```php
 //Hide Price Range for WooCommerce Variable Products
 add_filter( 'woocommerce_variable_sale_price_html', 
 'lw_variable_product_price', 10, 2 );
@@ -125,7 +125,7 @@ add_filter( 'woocommerce_variable_price_html',
 function lw_variable_product_price( $v_price, $v_product ) {
 ```
 ### Re-add price
-```txt
+```php
 // Product Price
 $prod_prices = array( $v_product->get_variation_price( 'min', true ), 
                             $v_product->get_variation_price( 'max', true ) );
@@ -147,7 +147,7 @@ return $prod_price;
 }
 ```
 ### Do not re-add products to cart when refresh the page
-```txt
+```php
 // Do not re-add products to cart when refresh the page
 add_action( 'woocommerce_add_to_cart_redirect', 'theme_slug_child_variation_link' );
 function theme_slug_child_variation_link() {
@@ -159,6 +159,6 @@ function theme_slug_child_variation_link() {
 ```
 ### Replace placeholder with jquery 
 (probably your theme will forces you tu use "$j" instead
-```txt
+```
 $('#this_is_your_id').attr('placeholder','Your New Text');
 ```
