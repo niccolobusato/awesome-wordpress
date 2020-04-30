@@ -157,3 +157,8 @@ function theme_slug_child_variation_link() {
 
 }
 ```
+### Replace placeholder with jquery 
+(probably your theme will forces you tu use "$j" instead
+```txt
+$('#this_is_your_id').attr('placeholder','Your New Text');
+```
