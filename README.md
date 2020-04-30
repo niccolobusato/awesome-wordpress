@@ -3,6 +3,7 @@
 
 insert into functions.php of theme
 
+### Custom tab on product page
 ```txt
 /**
  * Add a custom product data tab
@@ -25,12 +26,14 @@ function woo_new_product_tab_content() {
 
 	// The new tab content
 
-	echo '<h2>Guida alle taglie</h2>';
-	echo '<p>Descrizione da aggiungere o rimuovere.</p>';
-    echo '<img src="yoururl.com" alt="Text">';	
+	echo '<h2>Title</h2>';
+	echo '<p>Description</p>';
+    echo '<img src="yourimage.png" alt="Text">';	
 }
 ```
 
+
+### Another custom tab on product page
 ```txt
 /**
  * Add another custom product data tab
@@ -64,7 +67,7 @@ function woo_new_product_tab_2_content() {
 
 
 
-
+### Reorder product data tabs on product page
 ```txt
 /**
  * Reorder product data tabs
@@ -79,7 +82,7 @@ function woo_reorder_tabs( $tabs ) {
 }
 ```
 
-
+### Rename product data tabs on product page
 ```txt
 /**
  * Rename product data tabs
@@ -94,7 +97,7 @@ function woo_rename_tabs( $tabs ) {
 }
 ```
 
-
+### Remove product data tabs on product page
 ```txt
 /**
  * Remove product data tabs
@@ -111,7 +114,7 @@ function woo_remove_product_tabs( $tabs ) {
 
 
 
-
+### Hide Price Range for WooCommerce Variable Products
 ```txt
 //Hide Price Range for WooCommerce Variable Products
 add_filter( 'woocommerce_variable_sale_price_html', 
@@ -121,7 +124,7 @@ add_filter( 'woocommerce_variable_price_html',
 
 function lw_variable_product_price( $v_price, $v_product ) {
 ```
-
+### Re-add price
 ```txt
 // Product Price
 $prod_prices = array( $v_product->get_variation_price( 'min', true ), 
@@ -143,7 +146,7 @@ $prod_price = '<del>'.$regular_price.$v_product->get_price_suffix() . '</del> <i
 return $prod_price;
 }
 ```
-
+### Do not re-add products to cart when refresh the page
 ```txt
 // Do not re-add products to cart when refresh the page
 add_action( 'woocommerce_add_to_cart_redirect', 'theme_slug_child_variation_link' );
