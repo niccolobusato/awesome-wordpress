@@ -1,5 +1,7 @@
 # awesome-woocomerce
 
+If you want to style the checkout page youy can follow this [link](https://github.com/niccolobusato/awesome-woocomerce/blob/master/woocommerce-checkout-styles.css).
+
 
 insert into functions.php of theme
 
