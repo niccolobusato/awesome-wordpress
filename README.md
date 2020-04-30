@@ -4,7 +4,7 @@
 insert into functions.php of theme
 
 ### Custom tab on product page
-```txt
+```php
 /**
  * Add a custom product data tab
  */
