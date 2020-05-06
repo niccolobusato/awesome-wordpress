@@ -1,0 +1,30 @@
+## descrizione articolo centrale
+```css
+.woocommerce ul.products li.product .desc {
+    text-align: center!important;
+    min-height: 150px;
+}
+```
+
+## bottone articolo centrale e grande come la foto
+```css
+.woocommerce ul.products li.product .button {
+    margin-top: 0em;
+    display: block;
+    text-align: center;
+}
+```
+
+## descrizione articolo centrale
+```css
+.woocommerce ul.products li.product .desc {
+    text-align: center!important;
+    min-height: 150px;
+}
+```
+
+
+## nasconde tasto ricerca
+```css
+#Top_bar a#search_button, #Side_slide .extras .extras-wrapper .icon {display:none;}
+```
