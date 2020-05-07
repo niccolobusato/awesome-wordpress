@@ -199,3 +199,14 @@ return $fields;
 ```
 $('#this_is_your_id').attr('placeholder','Your New Text');
 ```
+
+### move description before image on single product page
+(probably your theme will forces you tu use "$j" instead
+```
+jQuery( function($) {
+  mobile = $(window).width();
+  if ( mobile <= 480 ){
+    jQuery( "div.woocommerce-product-details__short-description" ).insertBefore( ".woocommerce-product-gallery" );
+  }
+} );
+```
