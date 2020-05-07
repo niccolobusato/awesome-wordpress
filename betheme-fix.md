@@ -20,7 +20,6 @@
 #Header {
     min-height: 100px!important;
 }
-}
 ```
 
 
