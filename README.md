@@ -194,6 +194,8 @@ return $fields;
 }
 ```
 
+# jquery 
+
 ### Replace placeholder with jquery 
 (probably your theme will forces you tu use "$j" instead
 ```js
