@@ -15,11 +15,11 @@
 }
 ```
 
-## descrizione articolo centrale
+## definisce l'altezza dell'header
 ```css
-.woocommerce ul.products li.product .desc {
-    text-align: center!important;
-    min-height: 150px;
+#Header {
+    min-height: 100px!important;
+}
 }
 ```
 
