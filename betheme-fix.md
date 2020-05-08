@@ -27,3 +27,10 @@
 ```css
 #Top_bar a#search_button, #Side_slide .extras .extras-wrapper .icon {display:none;}
 ```
+
+## nasconde sidebar mobile
+```css
+#Top_bar a.responsive-menu-toggle {
+    display: none!important;
+}
+```
