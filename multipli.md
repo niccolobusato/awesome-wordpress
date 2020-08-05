@@ -1,3 +1,8 @@
+# Vendere vino su woocommerce
+
+questo codice da aggiungere a funcion.php va a verificare che nel carrello ci siano prodotti per multipli di 6 così da poter fare le scatole di spedizione piene
+
+```php
 <?php
 // check that cart items quantities totals are in multiples of 6
 add_action( 'woocommerce_check_cart_items', 'woocommerce_check_cart_quantities' );
@@ -27,3 +32,4 @@ function woocommerce_check_cart_quantities_for_class() {
 		wc_add_notice( sprintf( __('You need to purchase bottles in quantities of %s', 'woocommerce'), $multiples ), 'error' );
 }
 ?>
+```
