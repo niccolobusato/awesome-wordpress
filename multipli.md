@@ -33,3 +33,11 @@ function woocommerce_check_cart_quantities_for_class() {
 }
 ?>
 ```
+
+## Spedizioni per quantità nel carrello
+
+impostare che al raggiungimento della seconda scatola di bottiglie (12 pezzi) i prezzo di spedizione cambi il metodo più veloce e gratuito è la spedizione su base di peso.
+
+Si associa ad ogni prodotto il peso pari a "1" così da essere rapidi nella creazione della tipologia di spedizione, si utilizza questo plugin per farlo vedere alle spedizioni https://it.wordpress.org/plugins/weight-based-shipping-for-woocommerce/
+
+
