@@ -18,7 +18,7 @@
 ## definisce l'altezza dell'header
 ```css
 #Header {
-    min-height: 100px!important;
+    min-height: 90px!important;
 }
 ```
 
