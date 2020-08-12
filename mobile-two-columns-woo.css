@@ -1,0 +1,10 @@
+@media only screen and (max-width: 479px){
+div.wpb_wrapper .woocommerce ul.products li.product,
+.woocommerce ul.products.col-4 li.product {
+    width: 47%!important;
+    margin-right: 2%!important;
+}
+.woocommerce ul.products li.product .button {
+    font-size: smaller;
+
+}}
