@@ -9,3 +9,12 @@
    content: url(path-to-url);
 }
 ```
+
+# equidistant objects with css
+
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+```
