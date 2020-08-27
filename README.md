@@ -212,3 +212,15 @@ jQuery( function($) {
   }
 } );
 ```
+
+### applica css in funzione dello stato del carrello
+```js
+add_action( 'wp_footer', 'x_hide_cart' );
+function x_hide_cart(){
+	if ( WC()->cart->get_cart_contents_count() == 0 ) {
+		?>
+		<style type="text/css">div.top_bar_right{display: none !important;}</style>
+		<?php
+	}
+}
+```
