@@ -1,0 +1,68 @@
+@media (min-width: 1100px) {
+   .wc-proceed-to-checkout{width:125%!important;}
+    input#coupon_code.input-text {
+    width: 190px;
+}
+}
+
+@media (max-width: 1100px) {
+td.product-remove {height:42px;}
+td.product-remove a span.button_icon:before {
+    content: "Rimuovi prodotto  ";
+}}
+
+.entry-content .section_wrapper {
+	max-width:80%!important;
+}
+
+.entry-content .section_wrapper .the_content_wrapper{
+	margin:0px;
+}
+
+@media only screen and (max-width: 767px){
+.woocommerce table.cart td.actions .coupon #coupon_code {
+    width: 100%;
+}
+    
+.woocommerce table.cart td.actions .coupon .input-text+.button, .woocommerce-page table.cart td.actions .coupon .input-text+.button {
+    width: 100%;
+}
+}
+
+@media (min-width: 1100px) {
+	 .woocommerce-cart .woocommerce {
+		 display: flex;
+	}
+	 .woocommerce-cart .woocommerce-cart-form {
+		 flex: 1 0 70%;
+		 margin-right: 30px;
+	}
+	 .woocommerce-cart .cart-collaterals {
+		 flex: 1 0 30%;
+		 margin-left: 30px;
+	}
+}
+ .button[name="apply_coupon"] {
+	 background-color: transparent;
+	 color: #13aff0;
+}
+ .button[name="apply_coupon"]:hover {
+	 text-decoration: underline;
+	 background-color: transparent;
+	 color: #13aff0;
+}
+ .button[name="update_cart"] {
+	 background-color: #e2e2e2;
+	 color: #13aff0;
+}
+ .button[name="update_cart"]:hover {
+	 background-color: #e2e2e2;
+	 color: #13aff0;
+	 filter: brightness(115%);
+}
+
+
+.eltdf-woocommerce-page .cart-collaterals h2 {
+    font-size: 20px;
+    letter-spacing: normal;
+}
