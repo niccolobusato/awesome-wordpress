@@ -18,3 +18,16 @@
   justify-content: space-between;
 }
 ```
+# link to button
+```html
+<a href="https://google.com" class="button">Go to Google</a>
+```
+```css
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+```
