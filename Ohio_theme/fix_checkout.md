@@ -9,3 +9,10 @@ add_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_for
  
 remove_action( 'woocommerce_after_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
 ```
+
+
+da inserire nel css per aggiungere il margine mancante sotto al box coupon
+
+```css
+.woocommerce-form-coupon-toggle {margin-bottom:20px;}
+```
