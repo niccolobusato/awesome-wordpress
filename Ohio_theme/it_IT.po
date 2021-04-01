@@ -1,0 +1,1860 @@
+# Copyright (C) 2020 Colabrio
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ohio 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ohio\n"
+"POT-Creation-Date: 2020-07-27 09:30:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-04-01 14:08+0200\n"
+"Last-Translator: admin\n"
+"Language-Team: Italiano\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Loco-Version: 2.5.2; wp-5.6.2\n"
+
+#: 404.php:8
+msgid "404. The page you are looking for does not exist."
+msgstr "404. La pagina che stai cercando non esiste."
+
+#: 404.php:11
+msgid "Tell us what you are looking for"
+msgstr "Dicci cosa stai cercando"
+
+#. translators: %1: count comments
+#: comments.php:33 parts/elements/page_headline.php:95
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:58
+msgid "Comment navigation"
+msgstr "Naviga tra i commenti"
+
+#: comments.php:43 comments.php:61
+msgid "Older Comments"
+msgstr "Vecchi commenti"
+
+#: comments.php:44 comments.php:62
+msgid "Newer Comments"
+msgstr "Nuovi commenti"
+
+#: comments.php:79
+msgid "Post a comment"
+msgstr "Invia un commento"
+
+#. translators: %s: nickname
+#: comments.php:81
+msgid "Post a Reply to %s"
+msgstr "Posta una una risposta"
+
+#: comments.php:82
+msgid "Click here to cancel reply"
+msgstr "Clicca qui per cancellare il commento"
+
+#: comments.php:83
+msgid "Post Comment"
+msgstr "Invia un commento"
+
+#: comments.php:84
+msgid "Leave a Reply"
+msgstr "Lascia una risposta"
+
+#: comments.php:86
+msgid "Your Name"
+msgstr "Il tuo nome"
+
+#: comments.php:87
+msgid "Your Email"
+msgstr "La tua Email"
+
+#: comments.php:88
+msgid "Your Website"
+msgstr "Il tuo sito"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Passa al contenuto"
+
+#: inc/enqueue.php:112
+msgid "View Cart"
+msgstr "Mostra carrello"
+
+#: inc/enqueue.php:113
+msgid "has been added to the cart"
+msgstr "è stato aggiunto al carrello"
+
+#: inc/framework/components/helper.php:212
+msgid "Gallery slide"
+msgstr ""
+
+#: inc/framework/components/layout.php:199 woocommerce/loop/pagination.php:46
+#: woocommerce/loop/pagination.php:66
+msgid "Prev"
+msgstr "Precedente"
+
+#: inc/framework/components/layout.php:215 woocommerce/loop/pagination.php:47
+#: woocommerce/loop/pagination.php:67 woocommerce/myaccount/orders.php:94
+msgid "Next"
+msgstr "Prossimo"
+
+#: inc/framework/components/object_parser.php:420 woocommerce/share.php:55
+#: woocommerce/share.php:56
+msgid "Twitter"
+msgstr ""
+
+#: inc/framework/components/object_parser.php:427 woocommerce/share.php:47
+#: woocommerce/share.php:48
+msgid "Facebook"
+msgstr ""
+
+#: inc/framework/components/object_parser.php:434
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/framework/components/object_parser.php:441 woocommerce/share.php:63
+#: woocommerce/share.php:64
+msgid "Pinterest"
+msgstr ""
+
+#: inc/framework/components/object_parser.php:448
+msgid "Vkontakte"
+msgstr ""
+
+#: inc/init/theme.php:20
+msgid "Primary"
+msgstr ""
+
+#: inc/init/theme.php:49
+msgid "Brand color"
+msgstr "Colore del Brand"
+
+#: inc/init/theme.php:54
+msgid "Beige Dark"
+msgstr "Beige scuro"
+
+#: inc/init/theme.php:59
+msgid "Dark Strong"
+msgstr ""
+
+#: inc/init/theme.php:64
+msgid "Dark Light"
+msgstr ""
+
+#: inc/init/theme.php:69
+msgid "Grey Strong"
+msgstr "Grigio scuro"
+
+#: inc/init/theme.php:79
+msgid "Extra Small"
+msgstr ""
+
+#: inc/init/theme.php:84
+msgid "Small"
+msgstr ""
+
+#: inc/init/theme.php:89
+msgid "Normal"
+msgstr ""
+
+#: inc/init/theme.php:94
+msgid "Large"
+msgstr ""
+
+#: inc/init/theme.php:99
+msgid "Extra Large"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: inc/menu/edit_mega_menu_walker.php:87
+msgid "%s (Invalid)"
+msgstr "%s (Invalido)"
+
+#. translators: %s: title of menu item in draft status
+#: inc/menu/edit_mega_menu_walker.php:91
+msgid "%s (Pending)"
+msgstr "%s (In sospeso)"
+
+#: inc/menu/edit_mega_menu_walker.php:103
+msgid "sub item"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:118
+msgid "Move up"
+msgstr "Andare avanti"
+
+#: inc/menu/edit_mega_menu_walker.php:131
+msgid "Move down"
+msgstr "Andare indietro"
+
+#: inc/menu/edit_mega_menu_walker.php:133
+#: inc/menu/edit_mega_menu_walker.php:139
+msgid "Edit Menu Item"
+msgstr "Modifica menu articolo"
+
+#: inc/menu/edit_mega_menu_walker.php:148
+msgid "URL"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:155
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:161
+msgid "Title Attribute"
+msgstr "Titolo attributo"
+
+#: inc/menu/edit_mega_menu_walker.php:168
+msgid "Open link in a new window/tab"
+msgstr "Apri link in una nuova finestra"
+
+#: inc/menu/edit_mega_menu_walker.php:173
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:179
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:210
+msgid "Upload Image"
+msgstr "Scarica immagine"
+
+#: inc/menu/edit_mega_menu_walker.php:211
+msgid "Remove Image"
+msgstr "Rimuovi immagine"
+
+#: inc/menu/edit_mega_menu_walker.php:220
+msgid "Description"
+msgstr "Descrizione"
+
+#: inc/menu/edit_mega_menu_walker.php:222
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+"La descrizione verrà visualizzata nel menu se il tema corrente lo supporta."
+
+#: inc/menu/edit_mega_menu_walker.php:228
+#: woocommerce/wishlist-view-mobile.php:197 woocommerce/wishlist-view.php:150
+msgid "Move"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:229
+msgid "Up one"
+msgstr "Su di uno"
+
+#: inc/menu/edit_mega_menu_walker.php:230
+msgid "Down one"
+msgstr "Giù di uno"
+
+#: inc/menu/edit_mega_menu_walker.php:233
+msgid "To the top"
+msgstr "In alto"
+
+#. translators: %s: link to original title
+#: inc/menu/edit_mega_menu_walker.php:243
+msgid "Original: %s"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:259 woocommerce/wishlist-view.php:176
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: inc/menu/edit_mega_menu_walker.php:260
+msgid "Cancel"
+msgstr "Cancella"
+
+#: inc/menu/mega_menu.php:65
+msgid "Enable wide menu"
+msgstr ""
+
+#: inc/menu/mega_menu.php:68
+msgid "Yes"
+msgstr "Si"
+
+#: inc/menu/mega_menu.php:69
+msgid "No"
+msgstr ""
+
+#: inc/sidebars.php:5 inc/tgmpa/acf_setup.php:73
+#: parts/elements/page_headline.php:40
+msgid "Blog"
+msgstr ""
+
+#: inc/sidebars.php:7 inc/sidebars.php:17
+msgid "Add widgets here."
+msgstr "Aggiungi widgets qui."
+
+#: inc/sidebars.php:15 parts/content-page.php:6 parts/content.php:11
+msgid "Pages"
+msgstr "Pagine"
+
+#: inc/sidebars.php:25
+msgid "Footer column 1"
+msgstr ""
+
+#: inc/sidebars.php:32
+msgid "Footer column 2"
+msgstr ""
+
+#: inc/sidebars.php:39
+msgid "Footer column 3"
+msgstr ""
+
+#: inc/sidebars.php:46
+msgid "Footer column 4"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template_tags.php:49
+msgid "Tagged with"
+msgstr "Taggato con"
+
+#. translators: %s: post title
+#: inc/template_tags.php:70
+msgid "Leave a Comment %1$s on %2$s"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:22
+msgid "Ohio Theme Settings"
+msgstr "Impostazioni del tema Ohio"
+
+#: inc/tgmpa/acf_setup.php:23
+msgid "Theme Settings"
+msgstr "Impostazioni tema"
+
+#: inc/tgmpa/acf_setup.php:30 inc/tgmpa/acf_setup.php:37
+#: inc/tgmpa/acf_setup.php:44 inc/tgmpa/acf_setup.php:58
+msgid "Theme Pages Settings"
+msgstr "Impostazioni del tema pagine"
+
+#: inc/tgmpa/acf_setup.php:31
+msgid "Branding"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:38
+msgid "Theme Styling"
+msgstr "Stile del tema"
+
+#: inc/tgmpa/acf_setup.php:45
+msgid "Typography"
+msgstr "Carattere"
+
+#: inc/tgmpa/acf_setup.php:51
+msgid "Theme Header Settings"
+msgstr "Impostazioni dell’intestazione del tema"
+
+#: inc/tgmpa/acf_setup.php:52
+msgid "Header & Menu"
+msgstr "Intestazione & Menu"
+
+#: inc/tgmpa/acf_setup.php:59
+msgid "Page Settings"
+msgstr "Impostazioni pagine"
+
+#: inc/tgmpa/acf_setup.php:65
+msgid "Theme Portfolio Settings"
+msgstr "Impostazioni del tema portfolio"
+
+#: inc/tgmpa/acf_setup.php:66 parts/elements/breadcrumbs.php:58
+msgid "Portfolio"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:72 inc/tgmpa/acf_setup.php:114
+msgid "Theme Blog Settings"
+msgstr "Impostazioni del tema Blog"
+
+#: inc/tgmpa/acf_setup.php:79
+msgid "Theme Post Settings"
+msgstr "Impostazioni del tema post"
+
+#: inc/tgmpa/acf_setup.php:80
+msgid "Single Post"
+msgstr "Unico post"
+
+#: inc/tgmpa/acf_setup.php:86
+msgid "Theme WooCommerce Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:87 inc/tgmpa/woocommerce_setup.php:93
+msgid "Shop"
+msgstr "Negozio"
+
+#: inc/tgmpa/acf_setup.php:93
+msgid "Theme WooCommerce Product Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:94
+msgid "Single Product"
+msgstr "Unico prodotto"
+
+#: inc/tgmpa/acf_setup.php:100
+msgid "Subscribe Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:101
+msgid "Subscribe"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:107
+msgid "Theme Footer Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:108
+msgid "Footer"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:115
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:121
+msgid "Theme Plugins Settings"
+msgstr "Impostazioni del tema plugins"
+
+#: inc/tgmpa/acf_setup.php:122
+msgid "Other Settings"
+msgstr "Altre impostazioni"
+
+#: inc/tgmpa/acf_setup.php:129
+msgid "Support"
+msgstr "Supporto"
+
+#: inc/tgmpa/acf_setup.php:299
+msgid "Attribute setting"
+msgstr "Impostazione degli attributi"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Installa i plugin richiesti"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Installa i plugins"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Installazione plugins"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Aggiornamento plugin: %s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con il plugin API."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+"Questo tema richiede il seguente plugin: %1$s.\n"
+"Questo tema richiede i seguenti plugins: %1$s."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:346
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+"Questo tema consiglia il seguente plugin: %1$s.\n"
+"Questo tema consiglia i seguenti plugins: %1$s."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:351
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Il seguente plugin deve essere aggiornato alla sua ultima versione per "
+"garantire la massima compatibilità con questo tema: %1$s.\n"
+"I seguenti plugins devono essere aggiornati alla sua ultima versione per "
+"garantire la massima compatibilità cn questo tema: %1$s."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:356
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+"C’è un aggiornamento disponibile per: %1$s.\n"
+"Ci sono aggiornamenti disponibili per: %1$s."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:361
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Il seguente plugin richiesto è attualmente inattivo: %1$s.\n"
+"I seguenti plugins richiesti sono attualmente inattivi: %1$s."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:366
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Il seguente plugin consigliato è attualmente inattivo: %1$s.\n"
+"I seguenti plugins consigliati sono attualmente inattivi: %$s."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+"Inizia l’installazione del plugin.\n"
+"Inizia l’installazione dei plugins."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+"Inizio aggiornamento plugin.\n"
+"Inizio aggiornamento dei plugins."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+"Inizia ad attivare il plugin.\n"
+"Inizia ad attivare i plugins."
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:386
+msgid "Return to Required Plugins Installer"
+msgstr "Torna ai plugins installati richiesti"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:387
+#: inc/tgmpa/class-tgm-plugin-activation.php:897
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+#: inc/tgmpa/class-tgm-plugin-activation.php:3650
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+#: inc/tgmpa/class-tgm-plugin-activation.php:3229
+msgid "Plugin activated successfully."
+msgstr "Plugin attivato con successo."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:389
+#: inc/tgmpa/class-tgm-plugin-activation.php:3022
+msgid "The following plugin was activated successfully:"
+msgstr "Il seguente plugin è stato attivato con successo:"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:391
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nessuna azione intrapresa. Plugin %1$s era già attivo."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin non attivato. Per questo tema è necessaria una versione successiva di "
+"% s. Per favore aggiorna il plugin."
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin sono stati installati e attivati ​​con successo. %1$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:396
+msgid "Dismiss this notice"
+msgstr "Rimuovi questa notizia"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Esistono uno o più plugins rischiesti o consigliati da installare, "
+"aggiornare o attivare."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:398
+msgid "Please contact the administrator of this site for help."
+msgstr "Per favore contatta l’amministratore del sito per assistenza."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:592
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Questo plugin deve essere aggiornato per essere compatibile con il tuo tema."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:593
+msgid "Update Required"
+msgstr "Aggiornamento richiesto"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1004
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1004
+#: inc/tgmpa/class-tgm-plugin-activation.php:1007
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1007
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1191
+#: inc/tgmpa/class-tgm-plugin-activation.php:3018
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:2052
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2343
+msgid "Required"
+msgstr "Richiesto"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2346
+msgid "Recommended"
+msgstr "Consigliato"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2362
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2365
+msgid "External Source"
+msgstr "Fonte esterna"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2368
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "Not Installed"
+msgstr "Non installato"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2389
+msgid "Installed But Not Activated"
+msgstr "Installato ma non attivato"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Active"
+msgstr "Attivo"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2397
+msgid "Required Update not Available"
+msgstr "Aggiornamento richiesto non disponibile"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2400
+msgid "Requires Update"
+msgstr "Richiede l’aggiornamento"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2403
+msgid "Update recommended"
+msgstr "Aggiornamento consigliato"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2412
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2458
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2462
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2466
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2470
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2552
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2560
+msgid "Installed version:"
+msgstr "Versione installata:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2568
+msgid "Minimum required version:"
+msgstr "Minima versione richiesta:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2580
+msgid "Available version:"
+msgstr "Versione disponibile:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "No plugins to install, update or activate."
+msgstr "Nessun plugins da installare, aggiornare o attivare."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2617
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2618
+msgid "Source"
+msgstr "Fonte"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2619
+msgid "Type"
+msgstr "Carattere"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2623
+msgid "Version"
+msgstr "Versione"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2624
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2673
+msgid "Install %2$s"
+msgstr "Installa  %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2678
+msgid "Update %2$s"
+msgstr "Aggiorna %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2684
+msgid "Activate %2$s"
+msgstr "Attiva %2$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2754
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2787
+msgid "Install"
+msgstr "Installa"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2793
+msgid "Update"
+msgstr "Aggiorna"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2796
+msgid "Activate"
+msgstr "Attiva"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2827
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Nessun plugins è stato selezionato per l’installazione. Nessuna azione "
+"intrapresa."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2829
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Nessun plugins è stato selezionato per l’aggiornamento. Nessuna azione "
+"intrapresa."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2870
+msgid "No plugins are available to be installed at this time."
+msgstr "Nessun plugins disponibile per l’installazione in questo momento."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2872
+msgid "No plugins are available to be updated at this time."
+msgstr "Nessun plugins è disponibile per l’aggiornamento in questo momento."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2978
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Nessun plugin è stato selezionato per l’attivazione. Nessuna azione "
+"intrapresa."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3004
+msgid "No plugins are available to be activated at this time."
+msgstr "Nessun plugins è disponibile per l’attivazione in questo momento."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3228
+msgid "Plugin activation failed."
+msgstr "Plugin attivazione fallita."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3568
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aggiornamento plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3571
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3573
+msgid "The installation of %1$s failed."
+msgstr "L’ Installazione of %1$s è fallita."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3577
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Il processo di installazione e aggiornamento è iniziata. Questo processo "
+"potrebbe richiedere del tempo su alcuni hosts, quindi per favore sii "
+"paziente."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3579
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato e attivato con successo."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3580
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni e attivazioni sono state completate."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3582
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione e attivazione del plugin"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3585
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Il processo di installazione è iniziato. Questo processo potrebbe richiedere "
+"del tempo per alcuni host, quindi per favore sii paziente."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3587
+msgid "%1$s installed successfully."
+msgstr "%1$s installato con successo."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3588
+msgid "All installations have been completed."
+msgstr "Tutte le installazioni sono state completate."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3590
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione del plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgmpa/ocdi_setup.php:8 inc/tgmpa/ocdi_setup.php:18
+#: inc/tgmpa/ocdi_setup.php:28 inc/tgmpa/ocdi_setup.php:38
+#: inc/tgmpa/ocdi_setup.php:48 inc/tgmpa/ocdi_setup.php:58
+#: inc/tgmpa/ocdi_setup.php:68 inc/tgmpa/ocdi_setup.php:78
+#: inc/tgmpa/ocdi_setup.php:88 inc/tgmpa/ocdi_setup.php:98
+#: inc/tgmpa/ocdi_setup.php:108 inc/tgmpa/ocdi_setup.php:118
+#: inc/tgmpa/ocdi_setup.php:128 inc/tgmpa/ocdi_setup.php:138
+#: inc/tgmpa/ocdi_setup.php:148 inc/tgmpa/ocdi_setup.php:158
+#: inc/tgmpa/ocdi_setup.php:168 inc/tgmpa/ocdi_setup.php:178
+#: inc/tgmpa/ocdi_setup.php:188 inc/tgmpa/ocdi_setup.php:198
+#: inc/tgmpa/ocdi_setup.php:208 inc/tgmpa/ocdi_setup.php:218
+#: inc/tgmpa/ocdi_setup.php:228 inc/tgmpa/ocdi_setup.php:238
+#: inc/tgmpa/ocdi_setup.php:248 inc/tgmpa/ocdi_setup.php:258
+#: inc/tgmpa/ocdi_setup.php:268 inc/tgmpa/ocdi_setup.php:429
+msgid "Home Page"
+msgstr "Pagina iniziale"
+
+#: inc/tgmpa/ocdi_setup.php:278 inc/tgmpa/ocdi_setup.php:288
+#: inc/tgmpa/ocdi_setup.php:298 inc/tgmpa/ocdi_setup.php:308
+#: inc/tgmpa/ocdi_setup.php:318 inc/tgmpa/ocdi_setup.php:328
+msgid "About Page"
+msgstr "Riguardo la pagina"
+
+#: inc/tgmpa/ocdi_setup.php:338 inc/tgmpa/ocdi_setup.php:348
+#: inc/tgmpa/ocdi_setup.php:358 inc/tgmpa/ocdi_setup.php:368
+#: inc/tgmpa/ocdi_setup.php:378 inc/tgmpa/ocdi_setup.php:388
+msgid "Contact Page"
+msgstr "Pagina dei contatti"
+
+#: inc/tgmpa/ocdi_setup.php:398
+msgid "Blog Page"
+msgstr "Pagina del blog"
+
+#: inc/tgmpa/ocdi_setup.php:406
+msgid "Portfolio Page"
+msgstr "Pagina del portfolio"
+
+#: inc/tgmpa/ocdi_setup.php:414
+msgid "Products"
+msgstr "Prodotti"
+
+#: inc/tgmpa/ocdi_setup.php:420
+msgid "All Pages"
+msgstr "Tutte le pagine"
+
+#: inc/tgmpa/ocdi_setup.php:439
+msgid "Contact Forms"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:445
+msgid "UI Elements"
+msgstr ""
+
+#: inc/tgmpa/woocommerce_setup.php:45
+msgid "Updating..."
+msgstr "In aggiornamento."
+
+#: inc/tgmpa/woocommerce_setup.php:46
+msgid "Are you sure you want to remove this item from cart?"
+msgstr "Sei sicuro di voler rimuovere questo articolo dal carrello?"
+
+#: inc/tgmpa/woocommerce_setup.php:95
+msgid "WooCommerce sidebar."
+msgstr ""
+
+#: inc/tgmpa/woocommerce_setup.php:187
+msgid "Ohio Default Avatar"
+msgstr ""
+
+#: inc/tgmpa/woocommerce_setup.php:359
+msgid "Search suggestions"
+msgstr "Suggerimenti di ricerca"
+
+#: inc/tgmpa/woocommerce_setup.php:447
+msgid "Show All"
+msgstr "Mostra tutto"
+
+#: inc/tgmpa/woocommerce_setup.php:453
+msgid "No results for your search query"
+msgstr ""
+
+#: inc/wp_overrides.php:26
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di approvazione."
+
+#. translators: 1: date, 2: time
+#: inc/wp_overrides.php:35
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/wp_overrides.php:36 woocommerce/myaccount/my-address.php:65
+msgid "Edit"
+msgstr "Modifica"
+
+#: inc/wp_overrides.php:41
+msgid "Reply"
+msgstr "Risposta"
+
+#: inc/wp_overrides.php:207
+msgid "Registration complete. Check your email."
+msgstr "Registrazione completata controlla la tua email."
+
+#: inc/wp_overrides.php:385
+msgid "Continue Reading"
+msgstr "Continua a leggere"
+
+#: index.php:195 index.php:202 page_templates/page_for-posts.php:251
+#: page_templates/page_for-posts.php:258
+#: page_templates/page_for-projects.php:413
+#: page_templates/page_for-projects.php:420 search.php:257 search.php:264
+#: woocommerce/loop/pagination.php:81 woocommerce/loop/pagination.php:88
+msgid "Loading"
+msgstr "Caricamento"
+
+#: index.php:201 page_templates/page_for-posts.php:257
+#: page_templates/page_for-projects.php:419 search.php:263
+#: woocommerce/loop/pagination.php:87
+msgid "Load More"
+msgstr "Carica di più"
+
+#: page_templates/page_for-projects.php:274
+msgid "Filter by"
+msgstr ""
+
+#: page_templates/page_for-projects.php:277
+msgid "All"
+msgstr "Tutto"
+
+#: page_templates/page_for-projects.php:457
+msgid "Scroll"
+msgstr "Scorri"
+
+#: parts/blog_grid/layout_type1.php:92 parts/blog_grid/layout_type2.php:112
+#: parts/blog_grid/layout_type3.php:102 parts/blog_grid/layout_type4.php:114
+#: parts/blog_grid/layout_type5.php:91 parts/blog_grid/layout_type6.php:139
+msgid "Posted by"
+msgstr "Postato da"
+
+#: parts/blog_grid/layout_type1.php:105 parts/blog_grid/layout_type2.php:125
+#: parts/blog_grid/layout_type3.php:115 parts/blog_grid/layout_type4.php:127
+#: parts/blog_grid/layout_type5.php:104 parts/blog_grid/layout_type6.php:119
+msgid "Featured"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: parts/blog_grid/layout_type1.php:115 parts/blog_grid/layout_type2.php:135
+#: parts/blog_grid/layout_type3.php:125 parts/blog_grid/layout_type4.php:137
+#: parts/blog_grid/layout_type5.php:114 parts/blog_grid/layout_type6.php:129
+#: parts/elements/page_headline.php:194
+msgid "min read"
+msgstr ""
+
+#: parts/blog_grid/layout_type1.php:134 parts/blog_grid/layout_type2.php:153
+#: parts/blog_grid/layout_type3.php:142 parts/blog_grid/layout_type4.php:157
+#: parts/blog_grid/layout_type5.php:132 parts/blog_grid/layout_type6.php:170
+msgid "Read More"
+msgstr "Leggi di più"
+
+#: parts/content-none.php:8
+msgid "No result"
+msgstr "Nessun risultato"
+
+#: parts/content-none.php:11
+msgid ""
+"We did not find any article that matches this search. Try using other search "
+"criteria"
+msgstr ""
+"Non abbiamo trovato alcun articolo che corrisponda a questa ricerca. Prova a "
+"utilizzare altri criteri di ricerca"
+
+#: parts/elements/breadcrumbs.php:57
+msgid "Home"
+msgstr ""
+
+#: parts/elements/breadcrumbs.php:59
+msgid "Search results"
+msgstr "Cerca risultati"
+
+#: parts/elements/breadcrumbs.php:60 parts/elements/breadcrumbs.php:61
+#: woocommerce/single-product/meta.php:76
+msgid "Tag:"
+msgstr ""
+
+#: parts/elements/breadcrumbs.php:62
+msgid "Author:"
+msgstr "Autore:"
+
+#: parts/elements/breadcrumbs.php:63
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: parts/elements/breadcrumbs.php:193 parts/elements/page_headline.php:44
+msgid "Category"
+msgstr "Categoria"
+
+#: parts/elements/breadcrumbs.php:201 parts/elements/page_headline.php:51
+msgid "Tag"
+msgstr "Taggato"
+
+#: parts/elements/breadcrumbs.php:262 parts/elements/page_headline.php:115
+msgid "Undefined"
+msgstr "Indefinito"
+
+#: parts/elements/breadcrumbs.php:328
+msgid "Showing %1$d-%2$d of %3$d results"
+msgstr ""
+
+#: parts/elements/breadcrumbs.php:334
+msgid "Categories"
+msgstr "Categorie"
+
+#: parts/elements/breadcrumbs.php:352 parts/portfolio/layout_type1.php:161
+#: parts/portfolio/layout_type2.php:134 parts/portfolio/layout_type3.php:160
+#: parts/portfolio/layout_type4.php:132 parts/portfolio/layout_type5.php:199
+#: parts/portfolio/layout_type6.php:175 parts/portfolio/layout_type7.php:153
+#: parts/portfolio/layout_type8.php:177 parts/portfolio/layout_type9.php:208
+#: parts/portfolio_grid/lightbox.php:126
+msgid "Tags"
+msgstr "Taggati"
+
+#: parts/elements/breadcrumbs.php:370
+msgid "Authors"
+msgstr "Autori"
+
+#: parts/elements/breadcrumbs.php:388 parts/elements/breadcrumbs.php:453
+msgid "Filter"
+msgstr "Filtro"
+
+#: parts/elements/breadcrumbs.php:418
+msgid "Filter by category"
+msgstr "Categoria filtro"
+
+#: parts/elements/breadcrumbs.php:435
+msgid "Filter by tag"
+msgstr "Filtro per il tag"
+
+#: parts/elements/fullscreen_menu/centered.php:28
+#: parts/elements/fullscreen_menu/compact.php:27
+#: parts/elements/fullscreen_menu/standard.php:26
+msgid "Please, %1$sassign a menu%2$s"
+msgstr ""
+
+#: parts/elements/menu_cart.php:17
+msgid "Cart review"
+msgstr "Mostra carrello"
+
+#: parts/elements/menu_nav.php:78
+msgid "Please, %1$s assign a menu %2$s"
+msgstr ""
+
+#: parts/elements/nav_posts.php:26
+msgid "Next Post"
+msgstr "Prossimo post"
+
+#: parts/elements/nav_products.php:23
+msgid "Next Product"
+msgstr "Prossimo prodotto"
+
+#: parts/elements/nav_projects.php:16
+msgid "Next Project"
+msgstr "Prossimo progetto"
+
+#: parts/elements/page_headline.php:41
+msgid "Our recent posts"
+msgstr "I tuoi post recenti"
+
+#: parts/elements/page_headline.php:53
+msgid "Search Results for: "
+msgstr "Risultati ricerca per :"
+
+#: parts/elements/page_headline.php:84
+msgid "Author"
+msgstr "Autore"
+
+#: parts/elements/page_headline.php:89
+msgid "Published"
+msgstr "Pubblicato"
+
+#: parts/elements/page_headline.php:99
+msgid "Join the Conversation"
+msgstr "Entra nella conversazione"
+
+#: parts/elements/page_headline.php:130
+msgid "Page not found!"
+msgstr "Pagina non trovata!"
+
+#: parts/elements/page_headline.php:141 parts/portfolio/layout_type5.php:21
+#: parts/portfolio/layout_type6.php:21 parts/portfolio/layout_type7.php:22
+#: parts/portfolio/layout_type8.php:21 parts/portfolio/layout_type9.php:21
+msgid "Back"
+msgstr "Indietro"
+
+#: parts/elements/related_posts.php:49
+msgid "Recent Posts"
+msgstr "Post recenti"
+
+#: parts/elements/scroll_top.php:15
+msgid "Scroll to top"
+msgstr "Scorri verso su"
+
+#: parts/elements/social_networks.php:14
+msgid "Follow Us"
+msgstr "Seguici"
+
+#: parts/elements/subscribe.php:29
+msgid "No, thanks"
+msgstr "No, grazie"
+
+#: parts/portfolio/layout_type1.php:122 parts/portfolio/layout_type2.php:95
+#: parts/portfolio/layout_type3.php:121 parts/portfolio/layout_type4.php:93
+#: parts/portfolio/layout_type5.php:161 parts/portfolio/layout_type7.php:116
+#: parts/portfolio/layout_type9.php:170
+msgid "Task"
+msgstr ""
+
+#: parts/portfolio/layout_type1.php:131 parts/portfolio/layout_type2.php:104
+#: parts/portfolio/layout_type3.php:130 parts/portfolio/layout_type4.php:102
+#: parts/portfolio/layout_type5.php:169 parts/portfolio/layout_type6.php:145
+#: parts/portfolio/layout_type7.php:123 parts/portfolio/layout_type8.php:147
+#: parts/portfolio/layout_type9.php:178 parts/portfolio_grid/lightbox.php:96
+msgid "Strategy"
+msgstr "Strategia"
+
+#: parts/portfolio/layout_type1.php:138 parts/portfolio/layout_type2.php:111
+#: parts/portfolio/layout_type3.php:137 parts/portfolio/layout_type4.php:109
+#: parts/portfolio/layout_type5.php:176 parts/portfolio/layout_type6.php:152
+#: parts/portfolio/layout_type7.php:130 parts/portfolio/layout_type8.php:154
+#: parts/portfolio/layout_type9.php:185 parts/portfolio_grid/lightbox.php:103
+msgid "Design"
+msgstr ""
+
+#: parts/portfolio/layout_type1.php:145 parts/portfolio/layout_type2.php:118
+#: parts/portfolio/layout_type3.php:144 parts/portfolio/layout_type4.php:116
+#: parts/portfolio/layout_type5.php:183 parts/portfolio/layout_type6.php:159
+#: parts/portfolio/layout_type7.php:137 parts/portfolio/layout_type8.php:161
+#: parts/portfolio/layout_type9.php:192 parts/portfolio_grid/lightbox.php:110
+msgid "Client"
+msgstr "Cliente"
+
+#: parts/portfolio/layout_type1.php:169 parts/portfolio/layout_type2.php:142
+#: parts/portfolio/layout_type3.php:168 parts/portfolio/layout_type4.php:140
+#: parts/portfolio/layout_type5.php:152 parts/portfolio/layout_type6.php:183
+#: parts/portfolio/layout_type7.php:161 parts/portfolio/layout_type8.php:187
+#: parts/portfolio/layout_type9.php:161
+msgid "Open Project"
+msgstr "Apri progetto"
+
+#: parts/portfolio_grid/lightbox.php:46
+msgid "data-clb-portfolio-lightbox-slider"
+msgstr ""
+
+#: parts/portfolio_grid/portfolio_layout_type_1.php:96
+#: parts/portfolio_grid/portfolio_layout_type_2.php:91
+msgid "Show project"
+msgstr "Mostra progetto"
+
+#: parts/portfolio_grid/portfolio_layout_type_10.php:69
+#: parts/portfolio_grid/portfolio_layout_type_3.php:70
+#: parts/portfolio_grid/portfolio_layout_type_4.php:71
+#: parts/portfolio_grid/portfolio_layout_type_5.php:72
+#: parts/portfolio_grid/portfolio_layout_type_6.php:70
+#: parts/portfolio_grid/portfolio_layout_type_7.php:67
+#: parts/portfolio_grid/portfolio_layout_type_9.php:43
+msgid "Show Project"
+msgstr "Mostra progetto"
+
+#: searchform.php:3 woocommerce/product-searchform.php:35
+msgid "Search for"
+msgstr "Cerca per"
+
+#: searchform.php:4 woocommerce/product-searchform.php:36
+msgid "Search..."
+msgstr "Cerca."
+
+#: woocommerce/cart/cart-empty.php:37
+msgid "Your cart is currently empty."
+msgstr "Il tuo carrello è vuoto."
+
+#: woocommerce/cart/cart-empty.php:40
+msgid "Check out all the available products in the shop."
+msgstr "Scopri tutti i prodotti disponibili in negozio."
+
+#: woocommerce/cart/cart-empty.php:44 woocommerce/myaccount/orders.php:109
+msgid "Go Shopping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:27
+msgid "Cart totals"
+msgstr "Totale carrello"
+
+#: woocommerce/cart/cart-totals.php:32 woocommerce/cart/cart-totals.php:33
+#: woocommerce/cart/cart.php:138 woocommerce/cart/mini-cart.php:85
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:54 woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:70
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91 woocommerce/cart/cart-totals.php:92
+#: woocommerce/checkout/thankyou.php:73 woocommerce/order/order-details.php:45
+msgid "Total"
+msgstr "Totale"
+
+#: woocommerce/cart/cart.php:61 woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr "Rimuovi questo articolo"
+
+#: woocommerce/cart/cart.php:71 woocommerce/order/order-details.php:44
+msgid "Product"
+msgstr "Prodotto"
+
+#: woocommerce/cart/cart.php:87
+msgid "Available on backorder"
+msgstr "Disponibile su ordinazione"
+
+#: woocommerce/cart/cart.php:111
+msgid "Price"
+msgstr "Prezzo"
+
+#: woocommerce/cart/cart.php:116
+#: woocommerce/single-product/add-to-cart/simple.php:29
+#: woocommerce/single-product/add-to-cart/variable.php:38
+msgid "Quantity"
+msgstr "Quantità"
+
+#: woocommerce/cart/cart.php:134
+#: woocommerce/single-product/add-to-cart/grouped.php:55
+msgid "QTY:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:157
+msgid "Coupon code"
+msgstr "Codice coupon"
+
+#: woocommerce/cart/cart.php:158
+msgid "Paste coupon code here"
+msgstr "Incolla qui il codice del coupon"
+
+#: woocommerce/cart/cart.php:159
+msgid "Apply Coupon"
+msgstr "Applica il coupon"
+
+#: woocommerce/cart/cart.php:164
+msgid "Update cart"
+msgstr "Aggiorna carrello"
+
+#: woocommerce/cart/cross-sells.php:67
+msgid "You may be interested in"
+msgstr "Potresti essere interessato a"
+
+#: woocommerce/cart/mini-cart.php:93
+msgid "No products in the cart."
+msgstr "Nessun prodotto nel carrello."
+
+#: woocommerce/checkout/form-billing.php:23
+msgid "Billing &amp; Shipping"
+msgstr "Fatturazione &amp; Spedizione"
+
+#: woocommerce/checkout/form-billing.php:25
+msgid "Billing details"
+msgstr "Dettagli di fatturazione"
+
+#: woocommerce/checkout/form-billing.php:49
+msgid "Create an account?"
+msgstr "Crea un account?"
+
+#: woocommerce/checkout/form-checkout.php:50
+msgid "Your order"
+msgstr "Il tuo ordine"
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Spiacenti, sembra che non ci siano metodi di pagamento disponibili per il "
+"tuo stato. Contattaci se hai bisogno di assistenza o se desideri prendere "
+"accordi alternativi."
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Inserisci i tuoi dati sopra per vedere i metodi di pagamento disponibili."
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:42
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr "Aggiornamenti totali"
+
+#: woocommerce/checkout/thankyou.php:34
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Pay"
+msgstr "Pagamento"
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "My account"
+msgstr "Il mio account"
+
+#: woocommerce/checkout/thankyou.php:49 woocommerce/checkout/thankyou.php:108
+msgid "Thank you."
+msgstr "Grazie."
+
+#: woocommerce/checkout/thankyou.php:49 woocommerce/checkout/thankyou.php:108
+msgid "Your order has been received."
+msgstr "Il suo ordine è stato ricevuto."
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Order number"
+msgstr "Numero ordine"
+
+#: woocommerce/checkout/thankyou.php:61
+msgid "Date"
+msgstr "Data"
+
+#: woocommerce/checkout/thankyou.php:67 woocommerce/share.php:71
+#: woocommerce/share.php:72 woocommerce/single-product-reviews.php:96
+msgid "Email"
+msgstr "Email"
+
+#: woocommerce/checkout/thankyou.php:79
+msgid "Payment method"
+msgstr "Metodo di pagamento"
+
+#: woocommerce/content-product_cat.php:75
+#: woocommerce/content-product_cat.php:95
+msgid "Shop now"
+msgstr "Compra ora"
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr "Ordine del negozio"
+
+#: woocommerce/loop/sale-flash.php:27
+msgid "Sale"
+msgstr "Saldi"
+
+#: woocommerce/loop/sale-flash.php:32
+msgid "Out of Stock"
+msgstr ""
+
+#. translators: 1: user display name 2: logout url
+#: woocommerce/myaccount/dashboard.php:27
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:35
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:44
+msgid "No downloads available yet."
+msgstr "Nessun downloads ancora disponibile."
+
+#: woocommerce/myaccount/downloads.php:47
+msgid "Go shopping"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:38
+msgid "Sign in"
+msgstr "Registrati"
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:121
+msgid "Sign Up"
+msgstr "Iscriviti"
+
+#: woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:74
+msgid "Sign In"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:56
+msgid "Username or email address"
+msgstr "Nome utente o indirizzo email"
+
+#: woocommerce/myaccount/form-login.php:60
+#: woocommerce/myaccount/form-login.php:107
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+msgid "Remember me"
+msgstr "Ricordami"
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Lost your password?"
+msgstr "Ti sei dimenticato la password?"
+
+#: woocommerce/myaccount/form-login.php:85
+msgid "Registration"
+msgstr "Registrazione"
+
+#: woocommerce/myaccount/form-login.php:93
+msgid "Username"
+msgstr "Nome utente"
+
+#: woocommerce/myaccount/form-login.php:100
+msgid "Email address"
+msgstr "Indirizzo email"
+
+#: woocommerce/myaccount/form-login.php:113
+msgid "A password will be sent to your email address."
+msgstr "La password è stata inviata al tuo indirizzo email."
+
+#: woocommerce/myaccount/form-login.php:121
+msgid "Register"
+msgstr "Registrato"
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/order/order-details-customer.php:33
+msgid "Billing address"
+msgstr "Indirizzo di fatturazione"
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/order/order-details-customer.php:53
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"I seguenti indirizzi verranno utilizzati nella pagina di checkout per "
+"impostazione predefinita."
+
+#: woocommerce/myaccount/my-address.php:65
+msgid "Add"
+msgstr "Aggiungi"
+
+#: woocommerce/myaccount/my-address.php:69
+msgid "You have not set up this type of address yet."
+msgstr "Non hai ancora impostato questo tipo di indirizzo."
+
+#: woocommerce/myaccount/navigation.php:29
+msgid "Dashboard"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:28
+msgid "Order list"
+msgstr "Lista ordine"
+
+#: woocommerce/myaccount/orders.php:29
+msgid "Your recent orders are displayed in the table below."
+msgstr "I tuoi ordini recenti vengono visualizzati nella tabella sottostante."
+
+#: woocommerce/myaccount/orders.php:52
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:64
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:90
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:106
+msgid "No order has been made yet."
+msgstr "Nessun ordine è stato ancora effettuato."
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:55
+#: woocommerce/single-product/meta.php:48
+#: woocommerce/single-product/meta.php:52
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:39
+msgid "Order details"
+msgstr "Dettagli dell’ordine"
+
+#: woocommerce/order/order-details.php:83
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:43
+msgid "Select Category"
+msgstr "Seleziona categoria"
+
+#: woocommerce/product_popup.php:53
+#: woocommerce/single-product/product-image.php:77
+#: woocommerce/single-product/views/type_1.php:69
+#: woocommerce/single-product/views/type_1_reverse.php:79
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/share.php:80
+msgid "WhatsApp"
+msgstr ""
+
+#: woocommerce/share.php:81
+msgid "Whatsapp"
+msgstr ""
+
+#: woocommerce/share.php:91
+msgid "(Now"
+msgstr "Ora"
+
+#: woocommerce/share.php:91
+msgid "copy"
+msgstr "copia"
+
+#: woocommerce/share.php:91
+msgid "this wishlist link and share it anywhere)"
+msgstr "questo link condividilo ovunque"
+
+#: woocommerce/single-product/add-to-cart/simple.php:54
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:56
+msgid "Reset"
+msgstr "Ripristina"
+
+#: woocommerce/single-product/add-to-cart/variation.php:22
+msgid "SALE"
+msgstr "Saldi"
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+"Spiacenti, questo prodotto non è disponibile. Scegli una combinazione "
+"diversa."
+
+#: woocommerce/single-product/meta.php:48
+#: woocommerce/single-product/meta.php:52
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:64
+#: woocommerce/single-product/meta.php:66
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+"Categoria:\n"
+"Categorie:"
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:36
+msgid "Weight"
+msgstr "Peso"
+
+#: woocommerce/single-product/product-attributes.php:43
+msgid "Dimensions"
+msgstr "Dimensione"
+
+#: woocommerce/single-product/rating.php:36
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+msgid "out of %1$s5%2$s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:39
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:47
+msgid "%s"
+msgid_plural "%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:52
+msgid "Write a review"
+msgstr "Scrivi una Recensione"
+
+#: woocommerce/single-product/related.php:76
+msgid "Related products"
+msgstr "Altri prodotti"
+
+#: woocommerce/single-product/review-meta.php:34
+msgid "Your comment is awaiting approval"
+msgstr "Il tuo commento è in attesa di un’approvazione"
+
+#: woocommerce/single-product/review-meta.php:42
+msgid "verified owner"
+msgstr ""
+
+#. translators: %s: rating
+#: woocommerce/single-product/review-rating.php:28
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review-rating.php:29
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr "Informazioni in più"
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr "Descrizione prodotto"
+
+#: woocommerce/single-product/title.php:31
+msgid "In stock"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:69
+msgid "You may also like"
+msgstr "Potrebbe piacerti anche"
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s recensione %2$s"
+msgstr[1] "%1$s recensioni per %2$s"
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr "Non è ancora presente nessuna recensione."
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr "Aggiungi una recensione"
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Recensisci per primo &ldquo;%s&rdquo;"
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:77
+msgid "Leave a Reply to %s"
+msgstr "Lascia una risposta"
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Submit Review"
+msgstr "Pubblica"
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Name"
+msgstr "Nome"
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:121
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate this product:"
+msgstr "Valuta questo prodotto:"
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Perfect"
+msgstr "Perfetto"
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Good"
+msgstr "Bene"
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Not that bad"
+msgstr "Non male"
+
+#: woocommerce/single-product-reviews.php:131
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:135
+msgid "Your review"
+msgstr "La tua recensione"
+
+#: woocommerce/single-product-reviews.php:142
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:122
+msgid "Added on:"
+msgstr "Aggiunti in:"
+
+#: woocommerce/wishlist-view-mobile.php:133
+msgid "Price:"
+msgstr "Prezzo:"
+
+#: woocommerce/wishlist-view-mobile.php:160
+msgid "Quantity:"
+msgstr "Quantità:"
+
+#: woocommerce/wishlist-view-mobile.php:175
+msgid "Stock:"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:178 woocommerce/wishlist-view.php:128
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:178 woocommerce/wishlist-view.php:128
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:216 woocommerce/wishlist-view.php:169
+msgid "Move to another list &rsaquo;"
+msgstr "Passa a un’altra lista;"
+
+#: woocommerce/wishlist-view-mobile.php:225 woocommerce/wishlist-view.php:76
+#: woocommerce/wishlist-view.php:176
+msgid "Remove this product"
+msgstr "Rimuovi questo prodotto"
+
+#: woocommerce/wishlist-view-mobile.php:236 woocommerce/wishlist-view.php:193
+msgid "No products added to the wishlist"
+msgstr "Nessun prodotto aggiunto nella lista"
+
+#: woocommerce/wishlist-view.php:137
+msgid "Added on: %s"
+msgstr "Aggiungi in"
+
+#. Theme Name of the plugin/theme
+msgid "Ohio"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://ohio.clbthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Ohio is a WordPress theme bundled with premium plugins to build a modern and "
+"functional website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Colabrio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://clbthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "For page builder"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog page"
+msgstr "Pagina del Blog"
+
+#. Template Name of the plugin/theme
+msgid "Portfolio page"
+msgstr "Pagina portfolio"
