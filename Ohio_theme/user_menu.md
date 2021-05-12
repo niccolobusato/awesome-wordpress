@@ -18,7 +18,7 @@ dovrà essere inserito in (parts/elements/menu_user.php)
 </div>
 ```
 
-
+# Mostralo 
 per essere visualizzato deve essere dichiarato in ```menu_optional.php``` che si trova in (parts/elements/menu_optional.php)
 
 ```php
@@ -74,9 +74,9 @@ qui il file completo:
 ```
 
 
+# CSS
 
-```css
 aggiungere lo stile per mostrarlo correttamente sul css globale:
-
+```css
 .cuser-menu {margin-left:8px;}
 ```
