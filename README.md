@@ -4,135 +4,14 @@
 
 insert into functions.php of theme
 
-### Custom tab on product page
-```php
-/**
- * Add a custom product data tab
- */
-add_filter( 'woocommerce_product_tabs', 'woo_new_product_tab' );
-function woo_new_product_tab( $tabs ) {
-	
-	// Adds the new tab
-	
-	$tabs['test_tab'] = array(
-		'title' 	=> __( 'Your Custom Title', 'woocommerce' ),
-		'priority' 	=> 15,
-		'callback' 	=> 'woo_new_product_tab_content'
-	);
-
-	return $tabs;
-
-}
-function woo_new_product_tab_content() {
-
-	// The new tab content
-
-	echo '<h2>Title</h2>';
-	echo '<p>Description</p>';
-    echo '<img src="yourimage.png" alt="Text">';	
-}
-```
-
-
-### Another custom tab on product page
-```php
-/**
- * Add another custom product data tab
- */
-add_filter( 'woocommerce_product_tabs', 'woo_new_product_tab_2' );
-function woo_new_product_tab_2( $tabs ) {
-	
-	// Adds the new tab
-	
-	$tabs['test_tab2'] = array(
-		'title' 	=> __( 'Your Custom Title 2', 'woocommerce' ),
-		'priority' 	=> 30,
-		'callback' 	=> 'woo_new_product_tab_2_content'
-	);
-
-	return $tabs;
-
-}
-function woo_new_product_tab_2_content() {
-
-	// The new tab content
-
-	echo '<h2>Title</h2>';
-	echo '<p>Description.</p>';
-    echo '<img src="yourimage.jpg" alt="Text">';
-	
-}
-```
 
 
 
 
 
-### Reorder product data tabs on product page
-```php
-/**
- * Reorder product data tabs
- */
-add_filter( 'woocommerce_product_tabs', 'woo_reorder_tabs', 98 );
-function woo_reorder_tabs( $tabs ) {
 
-	$tabs['reviews']['priority'] = 50;			// Reviews first
-	$tabs['additional_information']['priority'] = 30;	// Additional information third
 
-	return $tabs;
-}
-```
 
-### Rename product data tabs on product page
-```php
-/**
- * Rename product data tabs
- */
-add_filter( 'woocommerce_product_tabs', 'woo_rename_tabs', 98 );
-function woo_rename_tabs( $tabs ) {
-
-	$tabs['reviews']['title'] = __( 'Recensioni' );				// Rename the reviews tab
-
-	return $tabs;
-
-}
-```
-
-### Remove product data tabs on product page
-```php
-/**
- * Remove product data tabs
- */
-add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
-
-function woo_remove_product_tabs( $tabs ) {
-
-    unset( $tabs['additional_information'] );  	// Remove the additional information tab
-
-    return $tabs;
-}
-```
-
-### Move additional information from product tab under add to cart button 
-```php
-// Remove additional information tab
-add_filter( 'woocommerce_product_tabs', 'remove_additional_information_tab', 100, 1 );
-function remove_additional_information_tab( $tabs ) {
-    unset($tabs['additional_information']);
-
-    return $tabs;
-}
-
-// Add "additional information" after add to cart
-add_action( 'woocommerce_single_product_summary', 'additional_info_under_add_to_cart', 35 );
-function additional_info_under_add_to_cart() {
-    global $product;
-
-    if ( $product && ( $product->has_attributes() || apply_filters( 'wc_product_enable_dimensions_display', $product->has_weight() || $product->has_dimensions() ) ) ) {
-        wc_display_product_attributes( $product );
-    }
-}
-```
 
 ### Hide Price Range for WooCommerce Variable Products
 ```php
