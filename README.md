@@ -1,8 +1,5 @@
 # awesome-woocomerce
 
-## If you want to style the checkout page you can follow this [link](https://github.com/niccolobusato/awesome-woocomerce/blob/master/woocommerce-checkout-styles.css).
-
-## koto mobile menu fix with css [link](https://github.com/niccolobusato/awesome-woocomerce/blob/master/koto-mobile-menu-fix.css).
 
 
 insert into functions.php of theme
