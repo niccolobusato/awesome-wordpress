@@ -1,0 +1,3 @@
+.blog-grid-content .post-details, .blog-grid:hover .blog-grid-meta .meta-holder {
+display: none;
+}
