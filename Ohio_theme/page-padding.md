@@ -1,5 +1,5 @@
 .page-container.top-offset {
-padding-bottom: 0px;
+padding-top: 0px;
 }
 
 .page-container.bottom-offset {
