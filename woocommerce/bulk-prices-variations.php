@@ -21,5 +21,7 @@ function gowp_global_variation_price() {  	global $woocommerce;  	?>  		<script 
   jQuery( document ).ready( function() {  					
     jQuery( document ).ajaxComplete( function( event, request, settings ) {  						
   if ( settings.data.lastIndexOf( "action=woocommerce_load_variations", 0 ) === 0 ) {  							
-                                          addVariationLinks();  						}  					} );  				} );  			<?php else: ?>  				
-                                          addVariationLinks();  			<?php endif; ?>  		</script>  	<?php  }
+                                          addVariationLinks();  }  } );  } );  			
+  <?php else: ?>  				
+                                          addVariationLinks();  			
+  <?php endif; ?>  		</script>  	<?php  }
