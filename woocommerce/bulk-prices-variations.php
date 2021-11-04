@@ -1,6 +1,7 @@
 add_action( 'woocommerce_product_data_panels', 'gowp_global_variation_price' );  
 function gowp_global_variation_price() {  	global $woocommerce;  	?>  		<script type="text/javascript">  			
-  function addVariationLinks() {  				a = jQuery( '<a href="#">Applica a tutte le variazioni</a>' );  				
+  function addVariationLinks() {  				
+                                          a = jQuery( '<a href="#">Applica a tutte le variazioni</a>' );  				
                                           b = jQuery( 'input[name^="variable_regular_price"].wc_input_price' );  				
                                           a.click( function( c ) {  					
                                           d = jQuery( this ).parent( 'label' ).next( 'input[name^="variable_regular_price"].wc_input_price' ).val();  					
