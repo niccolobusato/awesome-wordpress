@@ -24,4 +24,4 @@ function gowp_global_variation_price() {  	global $woocommerce;  	?>  		<script 
                                           addVariationLinks();  }  } );  } );  			
   <?php else: ?>  				
                                           addVariationLinks();  			
-  <?php endif; ?>  		</script>  	<?php  }
+  <?php endif; ?>  		</script>  	<?php  
