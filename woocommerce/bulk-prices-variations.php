@@ -25,3 +25,4 @@ function gowp_global_variation_price() {  	global $woocommerce;  	?>  		<script 
   <?php else: ?>  				
                                           addVariationLinks();  			
   <?php endif; ?>  		</script>  	<?php  
+}
